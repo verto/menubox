@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script src="../lib/jquery.js" type="text/javascript"></script> 
+    <script src="../src/menubox.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <a href="#" id="link">show menu popup</a>
+    <div id="menuPopup">this is a menu popup</div>
+    <script>
+      $(document).ready(function(){ 
+        $('#link').menubox('#menuPopup') 
+      });
+    </script>
+  </body>
+</html>
